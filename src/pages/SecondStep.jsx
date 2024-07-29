@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function SecondStep() {
   const [selectedCard, setSelectedCard] = useState("arcade");
-  const [billingPeriod, setBillingPeriod] = useState("monthly");
+  const [billingPeriod, setBillingPeriod] = useState("yearly");
 
   const handleCard = (plan) => {
     setSelectedCard(plan);
